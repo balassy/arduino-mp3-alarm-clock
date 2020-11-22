@@ -1,6 +1,6 @@
 // Third-party libraries.
 #include <OneButton.h>            // OneButton by Matthias Hertel (https://github.com/mathertel/OneButton)
-#include <WiFiManager.h>          // To manage network configuration and connection.
+#include <WiFiManager.h>          // WiFiManager by tzapu (https://github.com/tzapu/WiFiManager.git)
 
 // Local libraries.
 #include "DisplayController.h"

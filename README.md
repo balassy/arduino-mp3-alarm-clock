@@ -1,2 +1,3 @@
-# arduino-mp3-alarm-clock
-An ESP8266-controlled, NTP-based alarm clock that can play MP3 music from a microSD car.
+# MP3 Alarm Clock
+
+An ESP8266 microcontroller and NTP-based alarm clock that plays MP3 music from a microSD card.

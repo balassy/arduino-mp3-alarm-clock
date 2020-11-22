@@ -4,7 +4,7 @@
             "name": "Arduino",
             "includePath": [
                 "${env:USERPROFILE}\\Documents\\Arduino\\**",
-                "${env:USERPROFILE}\\Documents\\Arduino\\libraries\\WiFiManager",
+                "${env:USERPROFILE}\\Documents\\Arduino\\libraries\\**",
                 "${env:LOCALAPPDATA}\\Arduino15\\packages\\esp8266\\tools\\**",
                 "${env:LOCALAPPDATA}\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\**",
                 "${env:ProgramFiles(x86)}\\Arduino\\hardware\\tools\\avr\\avr\\include\\**",
@@ -26,7 +26,8 @@
             "name": "Win32",
             "includePath": [
                 "C:\\Users\\balassy\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
-                "C:\\Users\\balassy\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\**"
+                "C:\\Users\\balassy\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\**",
+                "${env:USERPROFILE}\\Documents\\Arduino\\libraries\\**"
             ],
             "forcedInclude": []
         }

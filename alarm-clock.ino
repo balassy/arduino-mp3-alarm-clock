@@ -10,10 +10,8 @@
 #include <WiFiManager.h>          // To manage network configuration and connection.
 #include <ezTime.h>               // ezTime by Rop Gonggrijp (https://github.com/ropg/ezTime)
 
-// Pin configuration.
-#define BUTTON_PIN D7             // Wemos pin - button - Wemos GND
-#define TO_PLAYER_PIN D5          // Wemos pin -> DFPlayer RX pin
-#define FROM_PLAYER_PIN D6        // Wemos pin <- DFPlayer TX pin
+// Configuration.
+#include "config.h"
 
 // Display connection.
 // SCL GPIO5 D1
@@ -31,10 +29,6 @@ DFRobotDFPlayerMini player;
 
 // Button connections.
 OneButton btn = OneButton(BUTTON_PIN, true, true);  // true: button is active LOW (connected to GND), true: internal pull-up resistor enabled.
-
-// Network configuration.
-const char* WIFI_AP_SSID = "MiniPlayer";       // The name of the wireless network to create if cannot connect using the previously saved credentials.
-const char* WIFI_AP_PASSWORD = "MiniPlayer!";  // The password required to connect to the wireless network used to configure the network parameters.
 
 WiFiManager wifiManager;
 

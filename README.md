@@ -4,6 +4,8 @@ An ESP8266 microcontroller-based network connected alarm clock that plays MP3 mu
 
 This project is based on my previous [Arduino Music Player](https://github.com/balassy/music-player) project which contains more detailed description about how it works.
 
+![](./doc/display-photo.jpg)
+
 ## Wiring
 
 ![](./wiring/schematic.png)
